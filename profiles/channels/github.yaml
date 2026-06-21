@@ -1,0 +1,147 @@
+# GitHub Channel Profile
+# Code hosting, technical discussion, issue tracking, pull requests
+# Version: 1.0
+
+name: "GitHub"
+description: "Version-controlled code repository, technical discussions, issues, pull requests, and collaborative development."
+
+constraints:
+  format: "Markdown + code blocks + links"
+  character_limit: null
+  media: "Code snippets, diffs, diagrams (SVG, PNG), attachments, gists"
+  threading: "Issues and PRs support nested comments"
+  archival: "Permanent, searchable, public"
+  rate_limits: "API rate limits apply"
+
+audience:
+  primary: "Developers, engineers, technical reviewers"
+  secondary: "Project maintainers, community contributors"
+  size: "Public or private (org-specific)"
+
+best_practices:
+  - "Use issue templates for consistency"
+  - "Link related issues and PRs (fixes #123)"
+  - "Include reproducible steps for bugs"
+  - "Use code blocks with language identifier"
+  - "Request reviewers explicitly for PRs"
+  - "Use branch protection rules"
+  - "Tag issues with appropriate labels"
+  - "Write clear commit messages (50 char title, blank line, details)"
+
+tone_guidelines:
+  formality: "professional"
+  primary_vibe: "builder"
+  secondary_vibes:
+    - "prestige"
+    - "research"
+  examples:
+    - "Fixes #456 by refactoring the auth middleware to handle concurrent requests properly."
+    - "Investigation results: The performance regression is in the consensus loop (PR #789). Here's the profile data..."
+    - "Draft RFC: Proposed changes to the x402 router. See implementation notes below."
+
+formatting_rules:
+  headers: "# Title (H1 for issue titles, H2+ for sections)"
+  code: "Use triple backticks with language: ```rust code here ```"
+  emphasis: "**bold** for important terms, `code` for identifiers"
+  lists: "- bullets for features, 1. numbers for steps"
+  tables: "Markdown tables for comparison or data"
+  links: "[Display Text](URL) — always descriptive anchor text"
+
+content_structure:
+  issue_title: "Clear, specific, problem-focused (e.g., 'Fix concurrent request deadlock in auth middleware')"
+  issue_body: "Context → Steps to reproduce → Expected behavior → Actual behavior → Environment"
+  pr_title: "Action + scope (e.g., 'refactor: simplify consensus validation logic')"
+  pr_description: "Why → What changed → Testing → Screenshots (if UI) → Breaking changes"
+  comment: "Direct response to issue/PR, reference specific lines with @mentions"
+
+do_list:
+  - "✓ Use Markdown effectively (code blocks, lists, emphasis)"
+  - "✓ Link to related issues/PRs/discussions"
+  - "✓ Provide context: what problem, why it matters"
+  - "✓ Include code examples and error messages"
+  - "✓ Request specific reviewers by @mention"
+  - "✓ Use labels and milestones for organization"
+  - "✓ Reference commits and specific lines"
+  - "✓ Keep titles short (50 chars), details in body"
+
+dont_list:
+  - "✗ Marketing language or promotional content"
+  - "✗ Vague issue titles ('Bug', 'Fix this')"
+  - "✗ Screenshots instead of code for errors (copy error text)"
+  - "✗ Wall-of-text comments (use formatting)"
+  - "✗ Off-topic discussions (use Discussions tab)"
+  - "✗ Merge conflicts in PRs (rebase/resolve)"
+  - "✗ Hardcoded secrets or credentials"
+  - "✗ Force-push to shared branches"
+
+example_issue:
+  title: "auth middleware: fix race condition in concurrent request handling"
+  body: |
+    ## Problem
+    When multiple requests hit the auth middleware simultaneously, race conditions cause some requests to be rejected with 401 even with valid tokens.
+
+    ## Steps to Reproduce
+    1. Start server with `cargo run`
+    2. Send 10 concurrent requests: `ab -n 10 -c 10 http://localhost:8080/api/protected`
+    3. Observe ~3-5 requests fail with 401
+
+    ## Expected Behavior
+    All requests with valid tokens succeed with 200
+
+    ## Actual Behavior
+    ~30-50% of concurrent requests fail with 401
+
+    ## Environment
+    - Rust 1.75
+    - OS: macOS 14.1
+    - Branch: main (commit abc123)
+
+    ## Investigation
+    The race condition appears to be in the token validation loop (auth_middleware.rs:45-60). Lock contention under high concurrency.
+
+example_pr:
+  title: "refactor: simplify auth middleware token validation"
+  body: |
+    ## Why
+    The current token validation loop has a race condition causing ~30-50% request failures under concurrency (fixes #456).
+
+    ## What Changed
+    - Refactored token validation to use RwLock instead of Mutex (read-heavy, write-rare)
+    - Moved token parsing outside the critical section
+    - Added dedicated benchmark for concurrent validation
+
+    ## Testing
+    - Unit tests: 24/24 passing
+    - Concurrent stress test (10 req/s × 100s): 100% success rate
+    - Benchmark: 40% improvement in concurrent throughput
+
+    ## Reviewers Needed
+    @core-team-leads for architecture review, @security-partners for auth-critical code
+
+metadata:
+  optimal_vibes:
+    - "builder"
+    - "prestige"
+    - "research"
+  use_cases:
+    - "Code review and technical discussion"
+    - "Bug tracking and feature requests"
+    - "Pull request review and merge"
+    - "Documentation and architecture"
+    - "Security issue coordination"
+  content_types:
+    - "Code and diffs"
+    - "Technical analysis"
+    - "Architecture decisions"
+    - "Security findings"
+    - "Performance data"
+  not_ideal_for:
+    - "Marketing or announcements (use website/X)"
+    - "Community updates (use Discord)"
+    - "Personal discussions (use email)"
+
+integration:
+  webhooks: "Supported for automation (push, PR, issues)"
+  automation: "GitHub Actions, branch protection, code owners"
+  api: "GraphQL and REST APIs available"
+  third_party: "Integrates with Slack, Discord, Linear, etc."

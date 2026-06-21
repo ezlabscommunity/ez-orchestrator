@@ -1,0 +1,121 @@
+# Telegram Channel Profile
+# Instant messaging, notifications, quick updates
+# Version: 1.0
+
+name: "Telegram"
+description: "Instant messaging platform for alerts, quick updates, direct team communication, and time-sensitive notifications."
+
+constraints:
+  format: "Plain text, formatted text, media"
+  character_limit: null (but keep messages short)
+  media: "Images, videos, documents, voice messages"
+  threading: "Not built-in; relies on context"
+  archival: "Searchable but ephemeral by design"
+  encryption: "End-to-end optional (secret chats)"
+
+audience:
+  primary: "Team members, on-call engineers, traders"
+  secondary: "Partners, quick alerts"
+  size: "Can be 1-on-1 or group channels"
+
+best_practices:
+  - "Use for alerts and urgent updates"
+  - "Keep messages short (easier on mobile)"
+  - "Use formatting for readability (bold, code)"
+  - "Include links to full details in GitHub/Docs"
+  - "Use pin feature for important messages"
+  - "Create topic-specific channels or groups"
+  - "Respect Do Not Disturb hours"
+  - "Use threads/replies to keep context"
+
+tone_guidelines:
+  formality: "casual-professional"
+  primary_vibe: "builder"
+  secondary_vibes:
+    - "prestige"
+  temperature: "urgent but calm"
+  examples:
+    - "🚨 mainnet alert: gas spike. details in #alerts"
+    - "✅ deployment complete. mainnet live. [link]"
+    - "⚠️ validator sync issue. investigating. update in 5 min"
+
+formatting_rules:
+  emphasis: "*bold* or _italic_, but keep short"
+  code: "`code` for quick snippets, don't paste long blocks"
+  links: "Inline with description or as separate message"
+  emojis: "Use for quick visual scanning (🚨, ✅, ⚠️, 🔗)"
+  media: "Screenshots OK for quick visual reference"
+
+content_structure:
+  alert: "Status emoji + headline + link to full details"
+  update: "What happened + impact + next steps (brief)"
+  question: "Clear ask + context + @mention if urgent"
+  notification: "Summary + link for details"
+
+do_list:
+  - "✓ Use for urgent/time-sensitive alerts"
+  - "✓ Include links to full context (GitHub, Docs)"
+  - "✓ Keep messages short"
+  - "✓ Use formatting for clarity"
+  - "✓ @mention for urgent alerts"
+  - "✓ Pin important announcements"
+  - "✓ Use emojis for visual scanning"
+  - "✓ Respect DND (do not disturb) hours"
+
+dont_list:
+  - "✗ Long discussions (use Discord)"
+  - "✗ Send at 3am unless critical incident"
+  - "✗ Spam alerts (batch non-urgent updates)"
+  - "✗ Share secrets or credentials"
+  - "✗ Use for archival (not designed for it)"
+  - "✗ @everyone for non-critical items"
+  - "✗ Detailed technical discussions (use GitHub)"
+  - "✗ Marketing content (use X or Beehiiv)"
+
+example_alert:
+  content: |
+    🚨 **Mainnet validator sync issue**
+
+    Some validators falling behind. Investigating cause.
+    No service impact yet.
+
+    Updates in #alerts every 5 min
+    [Full details](link-to-incident)
+
+example_update:
+  content: |
+    ✅ **Deployment complete**
+
+    x402 router v2.1 live on mainnet.
+    40% faster routing. Zero incidents.
+
+    [Deployment notes](link)
+
+metadata:
+  optimal_vibes:
+    - "builder"
+    - "prestige"
+  use_cases:
+    - "Urgent alerts and incidents"
+    - "Real-time notifications"
+    - "Quick status updates"
+    - "Time-sensitive announcements"
+  content_types:
+    - "Short messages (< 2 lines)"
+    - "Alerts with links"
+    - "Quick notifications"
+  not_ideal_for:
+    - "Long discussions (use Discord)"
+    - "Code review (use GitHub)"
+    - "Detailed explanations (use Docs)"
+    - "General chat (use Discord)"
+
+integration:
+  bots: "Alert bots from GitHub, monitoring systems"
+  webhooks: "Incoming webhooks for automation"
+  api: "Telegram Bot API for custom integration"
+
+on_call:
+  purpose: "Primary channel for on-call notifications"
+  escalation: "Telegram → Phone call if critical"
+  dnd_hours: "Respect team DND settings"

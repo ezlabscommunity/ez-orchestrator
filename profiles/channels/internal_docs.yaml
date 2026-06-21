@@ -1,0 +1,146 @@
+# Internal Docs Channel Profile
+# Google Docs, Notion, Confluence, shared knowledge base
+# Version: 1.0
+
+name: "Internal Docs"
+description: "Shared documentation system (Google Docs, Notion, etc.) for team knowledge, decisions, planning, and reference materials."
+
+constraints:
+  format: "Rich text, code blocks, tables, embeds, comments"
+  character_limit: null
+  media: "Images, videos, diagrams, spreadsheets, attachments"
+  threading: "Comments and replies (suggestion mode available)"
+  archival: "Permanent, searchable, version history"
+  access: "Team/org-restricted, permission-based"
+
+audience:
+  primary: "Team members, core contributors"
+  secondary: "Stakeholders, advisors, trusted partners"
+  size: "10-100 people (closed group)"
+
+best_practices:
+  - "Use table of contents for navigation"
+  - "Link to other docs for cross-reference"
+  - "Include metadata (author, date, status)"
+  - "Use templates for consistency"
+  - "Keep decision documents in one place"
+  - "Archive old docs instead of deleting"
+  - "Use comments for feedback (don't edit directly)"
+  - "Version control decisions with timestamps"
+
+tone_guidelines:
+  formality: "high"
+  primary_vibe: "prestige"
+  secondary_vibes:
+    - "builder"
+    - "research"
+  audience_level: "expert-to-expert, trusted team"
+  examples:
+    - "Decision: Use RwLock instead of Mutex for token validation. Date: 2024-06-21. Rationale: ..."
+    - "Architecture: x402 router overview. Last updated: 2024-06-21. Owned by: @core-team"
+    - "Q3 Roadmap: Shipping priorities, dependencies, ownership. Public version: [link]"
+
+formatting_rules:
+  headers: "H1 for document title, H2 for sections, H3 for subsections"
+  emphasis: "**bold** for key terms, _italic_ for emphasis"
+  code: "Inline code: `variable`, blocks with language: ```rust code ```"
+  tables: "Use for comparison, data, status tracking"
+  lists: "Bullets for attributes, numbered for processes"
+  links: "[Descriptive text](url) or reference to other docs"
+  comments: "Use suggestion mode for edits, comments for questions"
+
+content_structure:
+  decision_doc: "Title → Context → Options → Decision → Rationale → Impact → Approvals"
+  architecture: "Overview → Components → Data flow → Dependencies → Future work"
+  roadmap: "Goals → Milestones → Ownership → Timeline → Dependencies"
+  design_doc: "Problem → Approach → Implementation → Testing → Rollout"
+  playbook: "Overview → Prerequisites → Steps → Troubleshooting → FAQ"
+
+do_list:
+  - "✓ Use consistent formatting and structure"
+  - "✓ Link to external resources (GitHub, Slack, etc.)"
+  - "✓ Include author and date for accountability"
+  - "✓ Use comments for feedback, not direct edits"
+  - "✓ Archive old docs with clear status"
+  - "✓ Create templates for common doc types"
+  - "✓ Maintain table of contents"
+  - "✓ Link decisions to implementation (GitHub PRs)"
+
+dont_list:
+  - "✗ Outdated information without timestamps"
+  - "✗ Delete old docs (archive with 'deprecated' tag)"
+  - "✗ Edit without comment (use suggestion mode)"
+  - "✗ Store credentials or secrets"
+  - "✗ Duplicate information (link instead)"
+  - "✗ Use as chat system (use Discord)"
+  - "✗ Leave documents unowned or undated"
+  - "✗ Mix public and private information"
+
+example_decision_doc:
+  title: "Decision: Async Validation in Consensus Layer"
+  sections:
+    context: |
+      Current consensus validation is synchronous and blocks under 1000+ TPS.
+      Profiling shows 40% time in validation loop.
+
+    options:
+      - "A) Async validation + queue (more throughput, added latency)"
+      - "B) Parallel validation on threadpool (simpler, ~20% improvement)"
+      - "C) SIMD optimization (complex, high payoff)"
+
+    decision: "Option B: Parallel threadpool validation"
+
+    rationale: |
+      • Simplest implementation (fastest to ship)
+      • 20% improvement sufficient for next 6 months
+      • Low risk (no architecture changes)
+      • Can migrate to async later if needed
+
+    impact: "Unblocks mainnet launch. Requires minimal refactor."
+    approvals: "[@core-team-lead, @security-lead]"
+
+example_architecture_doc:
+  sections:
+    overview: "x402 is EZ Path's core routing orchestrator..."
+    components:
+      - "Meta-router: Detects venue and routes accordingly"
+      - "Pricing engine: Dynamic pricing based on venue"
+      - "Executor: Executes trades across venues"
+    data_flow: "[Diagram showing request → router → venues]"
+    dependencies:
+      - "Base network (for settlement)"
+      - "Uniswap (for DEX liquidity)"
+      - "Aave (for lending protocols)"
+    future_work: "ZK proof verification, cross-chain routing"
+
+metadata:
+  optimal_vibes:
+    - "prestige"
+    - "research"
+    - "builder"
+  use_cases:
+    - "Architecture and design decisions"
+    - "Roadmap and planning"
+    - "Team knowledge base"
+    - "Policy and playbooks"
+    - "Meeting notes and decisions"
+  content_types:
+    - "Design documents"
+    - "Decision records"
+    - "Architecture diagrams"
+    - "Roadmaps and timelines"
+    - "Playbooks and procedures"
+  not_ideal_for:
+    - "Real-time communication (use Discord)"
+    - "Code collaboration (use GitHub)"
+    - "Customer-facing content (use Website)"
+
+access_model:
+  public_version: "Stripped-down version published to website"
+  internal_version: "Full details, timelines, reasoning for team"
+  sensitive: "Separate folder with restricted access"
+
+integration:
+  versions: "Full version history available"
+  comments: "Use suggestion mode for feedback"
+  exports: "Can export to PDF/Word"

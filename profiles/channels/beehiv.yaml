@@ -1,0 +1,147 @@
+# Beehiiv Channel Profile
+# Email newsletter, long-form content, audience building
+# Version: 1.0
+
+name: "Beehiiv"
+description: "Email newsletter platform for long-form content, thought leadership, market analysis, and subscriber community building."
+
+constraints:
+  format: "Rich text, Markdown, images, embedded media"
+  character_limit: null
+  media: "Images, GIFs, embedded videos, link previews"
+  frequency: "Weekly or bi-weekly (manageable cadence)"
+  archival: "Permanent, searchable in archive"
+  reach: "Growing subscriber list (organic growth)"
+
+audience:
+  primary: "Crypto enthusiasts, traders, builders, investors"
+  secondary: "Media, researchers, general crypto community"
+  size: "1K-10K+ subscribers (depends on growth)"
+
+best_practices:
+  - "Publish consistently (same day/time each week)"
+  - "Use compelling subject lines (40-50 chars)"
+  - "Include 1-2 images per issue"
+  - "Provide unique insights (not just news aggregation)"
+  - "Segment content: headlines, deep-dives, resources"
+  - "Include clear CTA (website, Twitter, Discord)"
+  - "Monitor open rates and engagement"
+  - "Engage with subscribers via replies"
+
+tone_guidelines:
+  formality: "professional-accessible"
+  primary_vibe: "prestige"
+  secondary_vibes:
+    - "builder"
+    - "research"
+    - "public"
+  audience_level: "knowledgeable but not overly technical"
+  voice: "trusted analyst, accessible expert"
+  examples:
+    - "This week in Proof-of-Active-Human: Why human validators matter"
+    - "Market analysis: Cross-chain liquidity routing trends (and why it matters)"
+    - "Deep dive: The x402 router and deterministic pricing"
+
+formatting_rules:
+  subject_line: "Hook + keyword (40-50 chars). Examples: 'Why validators matter' or 'Q3 roadmap: what's next'"
+  headers: "# Main topic, ## Sections (clear hierarchy)"
+  emphasis: "**bold** for key terms, _italic_ for definitions"
+  images: "1-2 per issue, captions for context"
+  ctas: "Link to website, Twitter, Discord (clear buttons)"
+  signature: "Author name, publication date, social links"
+
+content_structure:
+  issue: "Subject line → Opening hook → 2-3 main sections → Closing CTA → Resources"
+  section: "Headline → Context → Key insight → Link or example → Transition"
+  resource: "Title → Summary (1-2 sentences) → Link → Why it matters"
+
+typical_sections:
+  headlines: "3-5 key news items with brief commentary (1-2 lines each)"
+  deep_dive: "1 in-depth article (300-500 words) with unique analysis"
+  analysis: "Market data, trends, or performance metrics"
+  resources: "Tools, docs, papers worth reading"
+  closing_cta: "Subscribe to Twitter, join Discord, check out website"
+
+do_list:
+  - "✓ Provide unique perspective (not just news)"
+  - "✓ Use compelling subject lines"
+  - "✓ Include images and visual breaks"
+  - "✓ Link to original sources and deep-dives"
+  - "✓ Publish on consistent schedule"
+  - "✓ Respond to subscriber replies"
+  - "✓ Segment for growth (bonus content for X followers)"
+  - "✓ Use data and metrics when available"
+
+dont_list:
+  - "✗ Pure news aggregation without commentary"
+  - "✗ Vague subject lines"
+  - "✗ Wall-of-text (use headers, bullets, white space)"
+  - "✗ Broken links (test before sending)"
+  - "✗ Inconsistent publishing schedule"
+  - "✗ Overly promotional (credibility over sales)"
+  - "✗ Unsubscribe friction (make it easy)"
+  - "✗ Clickbait or misleading headlines"
+
+example_issue:
+  subject_line: "Why human validators matter (and what's next)"
+  opening: "Proof-of-Active-Human consensus is gaining traction. Here's why it matters for web3's future."
+  sections:
+    headlines:
+      - "Mainnet launch: 1000+ TPS achieved"
+      - "Validator growth: 5000+ active participants"
+      - "Market watch: Liquidity routing trends"
+    deep_dive:
+      title: "The case for human-verified consensus"
+      content: |
+        Every blockchain claims decentralization. But who verifies the verifiers?
+
+        Traditional systems rely on economic incentives and smart contracts.
+        Effective, but abstract. You're trusting code, not people.
+
+        Proof-of-Active-Human flips the model. Every validator is a real person.
+        Real accountability. Real verification.
+
+        The tradeoff: slightly slower than pure algorithmic consensus, but
+        verifiable to the human level. For critical applications, that's invaluable.
+
+        [Read full analysis →]
+
+    resources:
+      - "EZ Chain docs: [link]"
+      - "Validator guide: [link]"
+      - "Performance benchmarks: [link]"
+
+  closing: "Join our Discord community. Share your thoughts on the future of human-verified consensus."
+
+metadata:
+  optimal_vibes:
+    - "prestige"
+    - "research"
+    - "builder"
+  use_cases:
+    - "Thought leadership and insights"
+    - "Market analysis and trends"
+    - "Community building and engagement"
+    - "Long-form content distribution"
+    - "Subscriber growth and retention"
+  content_types:
+    - "Market analysis and data"
+    - "Technical deep-dives"
+    - "News with unique commentary"
+    - "Industry trends and insights"
+    - "Educational content"
+  not_ideal_for:
+    - "Real-time updates (use X/Discord)"
+    - "Customer support (use Discord)"
+    - "Product launches (use website)"
+
+metrics:
+  tracking: "Open rate, click-through rate, subscriber growth"
+  target_open_rate: "> 40%"
+  target_ctr: "> 5%"
+  frequency: "1-2x per week"
+
+growth:
+  strategy: "Consistent value, clear CTAs, word-of-mouth"
+  distribution: "Share on X, link from website, promote in Discord"
+  retention: "Segment premium content for engaged subscribers"

@@ -1,0 +1,168 @@
+# TikTok Channel Profile
+# Short-form video, trends, viral content, community building
+# Version: 1.0
+
+name: "TikTok"
+description: "Short-form video platform for viral content, trend-jacking, meme culture, and rapid community building."
+
+constraints:
+  format: "MP4 video (vertical, 9:16 aspect ratio)"
+  character_limit: "150 chars for caption"
+  duration: "15 seconds - 10 minutes (usually 15-60 sec)"
+  media: "Video (primary), music, trending sounds"
+  archival: "Algorithmic feed, searchable but ephemeral"
+  reach: "Viral potential, broad demographic"
+  algorithm: "Based on watch time, shares, comments, not followers"
+
+audience:
+  primary: "Gen Z, Gen X, broad crypto/tech interest"
+  secondary: "Investors, casual crypto learners"
+  size: "Millions (algorithmic reach potential)"
+
+best_practices:
+  - "Post 3-5x per week (algorithm favors consistency)"
+  - "Hook in first 3 seconds"
+  - "Use trending sounds and trends"
+  - "Keep videos vertical (9:16)"
+  - "Add captions/text overlays (sound-off viewers)"
+  - "Use trending hashtags (but stay authentic)"
+  - "Respond to comments with video replies"
+  - "Participate in trending challenges"
+
+tone_guidelines:
+  formality: "casual, authentic, fun"
+  primary_vibe: "public"
+  secondary_vibes:
+    - "builder"
+    - "community"
+  temperature: "energetic, relatable, trend-aware"
+  voice: "insider, authentic creator, community member"
+  examples:
+    - "POV: You're a validator on EZ Chain *trending sound* #ProofOfActiveHuman"
+    - "when you realize crypto actually has humans behind it 🤯 #blockchain"
+    - "EZ Path routing your trades so you don't have to 💅 #DeFi"
+
+formatting_rules:
+  caption: "Hook + hashtags (15 chars max, let video speak)"
+  text_overlays: "Large, high-contrast, key message only"
+  sounds: "Use trending audio, original music sparingly"
+  effects: "Subtle effects (don't overuse)"
+  transitions: "Fast-paced, engaging cuts"
+  hashtags: "Mix trending (#ForYouPage, #FYP) + niche (#ProofOfActiveHuman)"
+
+content_types:
+  trend_jacking: "Apply trending format to your product"
+  explainer: "Complex concepts in 15-30 seconds"
+  behind_scenes: "Team moments, culture, personality"
+  meme: "Humor relevant to crypto/tech community"
+  demo: "Quick product demo (fast-paced)"
+  challenge: "Create or participate in trending challenge"
+
+structure:
+  hook: "First 3 seconds — stop the scroll"
+  body: "Main content (fast-paced, visual)"
+  reveal: "Product or message reveal"
+  cta: "Text overlay with next action"
+  end_screen: "Follow, link in bio, watch next"
+
+do_list:
+  - "✓ Hook in first 3 seconds"
+  - "✓ Use trending sounds (algorithmic boost)"
+  - "✓ Keep video vertical (9:16)"
+  - "✓ Add text overlays (for sound-off viewers)"
+  - "✓ Post consistently (3-5x/week)"
+  - "✓ Engage with comments and trends"
+  - "✓ Use mix of trending + niche hashtags"
+  - "✓ Stay authentic (algorithm rewards genuine)"
+
+dont_list:
+  - "✗ Slow intros (3 sec to hook)"
+  - "✗ Horizontal video (rotate to vertical)"
+  - "✗ Relying on sound (add captions)"
+  - "✗ Overly polished (Gen Z hates fakeness)"
+  - "✗ Spam hashtags (mix trending + niche)"
+  - "✗ Ignore comments (kills engagement)"
+  - "✗ Forced memes (stay authentic)"
+  - "✗ Inconsistent posting (algorithm punishes)"
+
+example_video_1:
+  title: "POV: You're a validator on EZ Chain"
+  concept: "Trending POV format applied to validators"
+  hook: "POV: You're keeping crypto honest [trending sound]"
+  body: "Show validator doing work, getting paid in real-time"
+  text_overlays:
+    - "Validating transactions ✓"
+    - "Securing the network ✓"
+    - "Getting paid ✓"
+  cta: "Join the revolution #ProofOfActiveHuman"
+  hashtags: "#FYP #ForYouPage #ProofOfActiveHuman #Crypto #Blockchain"
+
+example_video_2:
+  title: "explaining x402 routing in 30 seconds"
+  concept: "Simplify complex product"
+  hook: "Your trades, but make it optimal"
+  body: "Show split-screen of normal vs x402 routing"
+  text_overlays:
+    - "Your trade request"
+    - "x402 finds best path"
+    - "Best execution"
+  cta: "Link in bio to try it 🔗"
+  hashtags: "#DeFi #Trading #x402 #Crypto"
+
+example_video_3:
+  title: "when mainnet finally launches"
+  concept: "Relatable team moment (behind-the-scenes)"
+  hook: "when mainnet launches and everything works 🎉"
+  body: "Team celebrating, real reaction"
+  text_overlays:
+    - "1000+ TPS ✓"
+    - "0 bugs (somehow) ✓"
+    - "Actually decentralized ✓"
+  cta: "We're live! Check it out"
+  hashtags: "#Crypto #Blockchain #Mainnet #Launch"
+
+metadata:
+  optimal_vibes:
+    - "public"
+    - "builder"
+    - "community"
+  use_cases:
+    - "Viral content and brand awareness"
+    - "Trend participation and meme culture"
+    - "Quick explainers and demos"
+    - "Team culture and behind-the-scenes"
+    - "Community building and engagement"
+  content_types:
+    - "Short trend-jacking videos (15-60 sec)"
+    - "Explainers (super simplified)"
+    - "Behind-the-scenes moments"
+    - "Memes and humor"
+    - "Quick demos"
+  not_ideal_for:
+    - "Long explanations (use YouTube)"
+    - "Technical deep-dives (use docs)"
+    - "Formal announcements (use X/website)"
+
+algorithm:
+  factors: "Watch time, shares, comments, follows, sound use"
+  strategy: "Hook early, use trending sounds, post consistently"
+  viral: "Possible but unpredictable; quality over prediction"
+
+production:
+  equipment: "Smartphone (most creators use iPhones)"
+  editing: "TikTok editor or CapCut for post-production"
+  audio: "TikTok library for trending sounds"
+  graphics: "Text overlays, simple effects"
+  hosting: "TikTok Studio or mobile app"
+
+metrics:
+  tracking: "Views, likes, shares, comments, follows"
+  engagement: "Target > 10% engagement rate (likes + comments / views)"
+  virality: "Some videos will pop; play the numbers game"
+  growth: "Expect 2-5x follower growth monthly if consistent"
+
+strategy:
+  frequency: "3-5 posts per week (algorithm favors consistency)"
+  timing: "Post during peak hours (evenings/nights)"
+  mix: "60% trends, 20% product, 20% culture/behind-scenes"
+  authenticity: "Algorithm rewards genuine, punishes forced content"

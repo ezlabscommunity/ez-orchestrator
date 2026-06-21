@@ -1,0 +1,154 @@
+# Discord Channel Profile
+# Real-time chat, community, voice, instant messaging
+# Version: 1.0
+
+name: "Discord"
+description: "Real-time chat, community discussion, voice channels, event coordination, and instant team communication."
+
+constraints:
+  format: "Plain text, Markdown, embeds, reactions, threads"
+  character_limit: 2000
+  media: "Images, GIFs, videos, embeds, voice, screen share"
+  threading: "Thread-per-conversation (keeps channels clean)"
+  archival: "Searchable but ephemeral (history depends on server settings)"
+  rate_limits: "Message burst limits (5 msg/5 sec)"
+
+audience:
+  primary: "Team members, community, builders"
+  secondary: "Partners, vendors, interested parties"
+  size: "Can be 10-100K+ members"
+
+best_practices:
+  - "Use threads to keep conversations organized"
+  - "Pin important messages in channels"
+  - "Use role mentions sparingly (@here, @everyone)"
+  - "Archive old channels instead of deleting"
+  - "Set channel descriptions and purposes"
+  - "Use bots for automation (reminders, notifications)"
+  - "Organize by topic: #announcements, #engineering, #trading, etc."
+  - "React with emojis for quick feedback (👍, ❌, 🔄)"
+
+tone_guidelines:
+  formality: "medium"
+  primary_vibe: "builder"
+  secondary_vibes:
+    - "prestige"
+    - "community"
+  temperature: "warm, professional, accessible"
+  examples:
+    - "just shipped the x402 router refactor — 40% faster routing under load 🚀"
+    - "security audit complete — 2 minor findings, details in thread"
+    - "team sync in 10 min, vc.ezlabs.io"
+
+formatting_rules:
+  emphasis: "**bold** for highlights, `code` for identifiers"
+  inline_code: "Single backticks: `variable_name`"
+  code_blocks: "```rust\ncode\n``` (language identifier required)"
+  links: "Just paste URLs or use markdown [text](url)"
+  mentions: "@username for direct mention, @role for role ping"
+  reactions: "👍 agree, ❌ disagree, 🔄 in-progress, ✓ done, 🔗 link to issue"
+
+content_structure:
+  announcement: "Lead with news, add context, link to details"
+  discussion: "Question → context → options → action"
+  update: "What shipped, why it matters, next steps"
+  question: "Clear ask, include relevant context/link, @mention if urgent"
+  thread: "First message sets context, replies build conversation"
+
+do_list:
+  - "✓ Use threads for detailed discussions"
+  - "✓ Include relevant links (GitHub PR, docs, etc.)"
+  - "✓ Use reactions for quick agreement/disagreement"
+  - "✓ Share updates and progress in real-time"
+  - "✓ Pin important decisions or announcements"
+  - "✓ @mention sparingly for urgent items"
+  - "✓ Use channel topics to self-organize"
+  - "✓ Archive completed projects/initiatives"
+
+dont_list:
+  - "✗ Long unformatted text walls (use threads or code blocks)"
+  - "✗ Spam @everyone or @here for non-critical items"
+  - "✗ Delete messages (archive context instead)"
+  - "✗ Use channels for 1-on-1 (use DMs)"
+  - "✗ Off-topic tangents (create thread or take to DM)"
+  - "✗ Screenshot code (use code blocks)"
+  - "✗ Sensitive data or credentials (ever)"
+  - "✗ Treat as permanent record (ephemeral by design)"
+
+example_announcement:
+  content: |
+    🎉 **EZ Chain mainnet launch in 24 hours**
+
+    Timeline:
+    • 2pm UTC: Final validator checks
+    • 4pm UTC: Genesis block
+    • 5pm UTC: Public endpoints live
+
+    [Full launch checklist](https://docs.ezchain.ai/launch)
+    [Security audit summary](https://github.com/.../security-audit)
+
+    Questions? Post in thread 👇
+
+example_discussion:
+  content: |
+    **Should we move consensus validation to async?**
+
+    Context: Current sync validation blocks under 1000+ TPS. Profiling shows 40% time in validation loop.
+
+    Options:
+    A) Async validation + queue (more throughput, added latency)
+    B) Parallel validation on threadpool (simpler, ~20% improvement)
+    C) SIMD optimization (complex, high payoff)
+
+    Leaning toward B for next sprint. Thoughts?
+
+example_update:
+  content: |
+    ✅ **x402 router optimization complete**
+
+    Shipped this morning:
+    • 40% faster routing under load
+    • 30% less memory allocation
+    • Full backward compatibility
+
+    [PR #890](https://github.com/.../pull/890) | [Benchmarks](https://...)
+
+    Mainnet deployment: Friday morning
+
+channel_structure:
+  categories:
+    announcements: "Team updates, launches, major decisions"
+    engineering: "Technical discussion, architecture, code review"
+    trading: "ZENDEX updates, market data, signals"
+    community: "General discussion, onboarding, introductions"
+    operations: "DevOps, infrastructure, monitoring"
+    support: "User support, questions, troubleshooting"
+    random: "Off-topic, fun, non-work"
+
+metadata:
+  optimal_vibes:
+    - "builder"
+    - "community"
+    - "prestige"
+  use_cases:
+    - "Real-time team communication"
+    - "Community engagement and support"
+    - "Announcement and updates"
+    - "Async collaboration via threads"
+    - "Quick decisions and feedback"
+  content_types:
+    - "Short messages (< 2000 char)"
+    - "Links and references"
+    - "Code snippets"
+    - "Images and GIFs"
+    - "Reactions and quick feedback"
+  not_ideal_for:
+    - "Long-form documentation (use Docs)"
+    - "Code review (use GitHub)"
+    - "Permanent records (use GitHub/Docs)"
+
+integration:
+  bots: "Discord bots for automation, alerts, commands"
+  webhooks: "Incoming/outgoing webhooks"
+  slash_commands: "Custom commands via bots"
+  third_party: "Integrates with GitHub, Linear, Slack, etc."

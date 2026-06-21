@@ -1,0 +1,154 @@
+# YouTube Channel Profile
+# Long-form video content, tutorials, talks, demonstrations
+# Version: 1.0
+
+name: "YouTube"
+description: "Video platform for tutorials, technical talks, demos, product walkthroughs, and video-first thought leadership."
+
+constraints:
+  format: "MP4 video, subtitles, descriptions, chapters"
+  character_limit: "5000 chars for description, 100 for title"
+  media: "Video (primary), audio, thumbnails, playlists"
+  archival: "Permanent, indexed by YouTube and Google"
+  reach: "Algorithmic recommendation + search discovery"
+  requirements: "Consistent upload schedule, thumbnails, SEO"
+
+audience:
+  primary: "Developers, traders, builders learning"
+  secondary: "Investors, media, general YouTube audience"
+  size: "Potentially millions (algorithmic reach)"
+
+best_practices:
+  - "Upload consistently (1-4x per month)"
+  - "Use compelling thumbnails (high contrast, text)"
+  - "Write detailed descriptions with links"
+  - "Add chapters for navigation"
+  - "Include subtitles (accessibility + SEO)"
+  - "Create playlists by topic"
+  - "Optimize titles for search"
+  - "Engage with comments"
+
+tone_guidelines:
+  formality: "professional-friendly"
+  primary_vibe: "builder"
+  secondary_vibes:
+    - "prestige"
+    - "public"
+  audience_level: "educational, clear for beginners, deep for experts"
+  voice: "knowledgeable guide, accessible teacher"
+  examples:
+    - "EZ Chain explainer: Proof-of-Active-Human in 5 minutes"
+    - "x402 router walkthrough: How it optimizes your trades"
+    - "Building on EZ Path: A developer's guide"
+
+formatting_rules:
+  title: "Hook + keyword (60 chars max). Examples: 'Mainnet launch: What's next?' or 'EZ Chain explained (5 min)'"
+  description: "Overview (2-3 lines) → Resources → Chapters → CTAs → Links"
+  chapters: "Include timestamps for major sections"
+  subtitles: "Auto-generated + reviewed (for accuracy)"
+  thumbnails: "Custom designed with contrast, text, face"
+
+content_types:
+  tutorial: "Step-by-step guide (3-10 min). Example: 'Getting started with EZ Chain CLI'"
+  explainer: "Concept overview (3-5 min). Example: 'What is Proof-of-Active-Human?'"
+  walkthrough: "Feature demo (5-15 min). Example: 'x402 Router: Live Trading Demo'"
+  talk: "Technical talk or panel (20-60 min). Example: 'Consensus Mechanisms: The Human Factor'"
+  interview: "Guest speaker or community member (30-60 min)"
+
+structure:
+  opening: "Hook (first 10 sec, establish value)"
+  content: "Main educational content with visuals"
+  demo: "Live walkthrough or code example"
+  recap: "Summary of key takeaways"
+  cta: "Subscribe, join Discord, check docs"
+
+do_list:
+  - "✓ Hook viewers in first 10 seconds"
+  - "✓ Use screen capture and visuals"
+  - "✓ Include lower-thirds with key info"
+  - "✓ Add captions for accessibility"
+  - "✓ Link to resources in description"
+  - "✓ Use playlists to group content"
+  - "✓ Optimize titles and descriptions for search"
+  - "✓ Respond to comments (community engagement)"
+
+dont_list:
+  - "✗ Long, slow intros (get to value fast)"
+  - "✗ Poor audio quality (invest in mic)"
+  - "✗ No captions or subtitles"
+  - "✗ Clickbait misleading titles"
+  - "✗ Inconsistent upload schedule"
+  - "✗ No clear CTAs or next steps"
+  - "✗ Lengthy sections without visual break"
+  - "✗ Ignore comments (kills community)"
+
+example_video:
+  title: "EZ Chain mainnet launch: What's changed (5 min)"
+  description: |
+    EZ Chain mainnet is live! Here's what launched:
+
+    ✓ 1000+ TPS throughput
+    ✓ Proof-of-Active-Human validators
+    ✓ 99.9% uptime SLA
+    ✓ Zero hidden fees
+
+    Timestamps:
+    0:00 - What's new
+    1:30 - Live demo
+    3:45 - Getting started
+    4:30 - Next steps
+
+    Resources:
+    Docs: [link]
+    GitHub: [link]
+    Discord: [link]
+
+    Subscribe for more EZ Labs content!
+
+  chapters:
+    - "0:00 - Intro"
+    - "0:45 - What launched"
+    - "1:30 - Live validator demo"
+    - "3:45 - Getting started with CLI"
+    - "4:30 - Recap"
+
+metadata:
+  optimal_vibes:
+    - "builder"
+    - "prestige"
+    - "public"
+  use_cases:
+    - "Product tutorials and walkthroughs"
+    - "Technical education"
+    - "Thought leadership talks"
+    - "Community events and panels"
+    - "Demo and launch announcements"
+  content_types:
+    - "Tutorials (how-to)"
+    - "Explainers (concepts)"
+    - "Demos (live product)"
+    - "Talks (technical depth)"
+    - "Interviews (community)"
+  not_ideal_for:
+    - "Real-time updates (use X/Discord)"
+    - "Quick fixes (use docs)"
+    - "Detailed discussions (use blog)"
+
+production:
+  equipment: "Webcam (minimum), mic, screen recording software"
+  editing: "Simple cuts, lower-thirds, captions"
+  hosting: "YouTube Studio for scheduling and analytics"
+  distribution: "Link on website, share on X and Discord"
+
+seo:
+  keywords: "Include relevant keywords naturally"
+  description: "150+ chars with keywords, links, chapters"
+  tags: "5-10 relevant tags"
+  playlists: "Group by topic (tutorials, explainers, talks)"
+  metadata: "Title, thumbnail, description all optimized"
+
+metrics:
+  tracking: "View count, watch time, click-through rate"
+  engagement: "Comments, likes, shares, subscriptions"
+  growth: "Target 10-20% subscriber growth monthly"
+  retention: "Target > 40% average view duration"

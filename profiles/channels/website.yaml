@@ -1,0 +1,141 @@
+# Website Channel Profile
+# Public-facing web presence, marketing, documentation, blog
+# Version: 1.0
+
+name: "Website"
+description: "Public-facing website for product information, documentation, blog posts, case studies, and brand presence."
+
+constraints:
+  format: "HTML/Markdown + images + videos + interactive components"
+  character_limit: null
+  media: "All media types supported (images, videos, interactive demos)"
+  architecture: "Static site or CMS-backed"
+  archival: "Permanent, SEO-indexed, public"
+  performance: "Mobile-responsive, fast loading"
+
+audience:
+  primary: "Product users, developers, investors"
+  secondary: "Media, partners, potential employees"
+  size: "Public, unlimited"
+
+best_practices:
+  - "Use clear navigation and hierarchy"
+  - "Optimize for SEO (keywords, meta tags, structure)"
+  - "Include call-to-action (CTA) on each page"
+  - "Use case studies and testimonials"
+  - "Keep content fresh (blog posts, updates)"
+  - "Mobile-first responsive design"
+  - "Fast loading times (optimize images/code)"
+  - "Clear value proposition above the fold"
+
+tone_guidelines:
+  formality: "professional"
+  primary_vibe: "prestige"
+  secondary_vibes:
+    - "builder"
+    - "public"
+  audience_level: "general to expert (varies by page)"
+  voice: "trusted authority, approachable expert"
+  examples:
+    - "EZ Chain is Proof-of-Active-Human blockchain infrastructure for verifiable, decentralized validation."
+    - "Ship faster with deterministic routing. EZ Path orchestrates liquidity across 10 major venues."
+    - "Get started in 5 minutes with our CLI tool. [Download →]"
+
+formatting_rules:
+  headers: "H1 for page title, H2-H3 for sections (clear hierarchy)"
+  emphasis: "**bold** for key terms, images for visual interest"
+  code: "Highlight syntax-colored code snippets (readonly)"
+  ctc: "Prominent buttons for calls-to-action"
+  links: "Descriptive anchor text, internal and external links"
+  media: "Optimized images, embedded videos, interactive demos"
+
+content_structure:
+  homepage: "Hero (value prop) → Features → Use cases → CTA → Social proof"
+  product_page: "Overview → Key features → Screenshots → Pricing → Get started CTA"
+  docs_page: "Quick start → Concepts → API reference → Examples → Support"
+  blog_post: "Title → Author/date → Intro → Body → Conclusion → CTA"
+  case_study: "Challenge → Solution → Results → Testimonial → CTA"
+
+do_list:
+  - "✓ Lead with clear value proposition"
+  - "✓ Use visuals to break up text"
+  - "✓ Include clear CTAs (buttons, forms)"
+  - "✓ Optimize for mobile and accessibility"
+  - "✓ Use SEO best practices (keywords, meta tags)"
+  - "✓ Include customer testimonials and case studies"
+  - "✓ Keep content current and updated"
+  - "✓ Provide clear paths to next steps"
+
+dont_list:
+  - "✗ Marketing hype without substance"
+  - "✗ Outdated information (use clear 'last updated' date)"
+  - "✗ Auto-playing videos or sound"
+  - "✗ Dense text walls (use short paragraphs, bullet points)"
+  - "✗ Vague CTAs ('click here' instead of specific action)"
+  - "✗ Flash or deprecated technologies"
+  - "✗ Poor accessibility (low contrast, missing alt text)"
+  - "✗ Slow loading or unoptimized media"
+
+example_homepage:
+  hero: "EZ Chain: Proof-of-Active-Human blockchain infrastructure"
+  subheading: "Verifiable consensus through human validation. Ship with confidence."
+  cta: "Get Started →"
+  features:
+    - "Human-verified validators"
+    - "1000+ TPS throughput"
+    - "99.9% uptime SLA"
+  social_proof: "[Logos] Trusted by 50+ projects"
+
+example_product_page:
+  title: "EZ Path — Deterministic Liquidity Router"
+  overview: "EZ Path orchestrates your trades across 10 major venues with intelligent routing."
+  key_features:
+    - "Multi-venue routing with optimization"
+    - "Real-time pricing and execution"
+    - "ZK-proof settlement verification"
+  section: "How it works [diagram showing request → routing → execution]"
+  pricing: "Pay per trade. No monthly fees."
+  cta: "Try it free [Sign up →]"
+
+page_types:
+  landing: "Hero, value prop, features, pricing, CTA, social proof"
+  docs: "Searchable, navigable, code examples, API reference"
+  blog: "Author bio, date, social sharing, related posts"
+  community: "Forum, Q&A, case studies, contributor highlights"
+  support: "FAQ, contact form, status page, ticketing system"
+
+metadata:
+  optimal_vibes:
+    - "prestige"
+    - "builder"
+    - "public"
+  use_cases:
+    - "Product marketing and awareness"
+    - "Developer documentation"
+    - "Blog and thought leadership"
+    - "Case studies and testimonials"
+    - "Support and FAQ"
+  content_types:
+    - "Long-form marketing copy"
+    - "Technical documentation"
+    - "Blog posts"
+    - "Case studies"
+    - "Interactive demos"
+  not_ideal_for:
+    - "Real-time updates (use X/Discord)"
+    - "Code collaboration (use GitHub)"
+    - "Customer support (use Help → Discord)"
+
+seo:
+  keywords: "Include relevant keywords naturally"
+  meta_tags: "Title, description, og:image for social sharing"
+  structure: "Clear H1 → H2 → H3 hierarchy"
+  internal_links: "Link related pages and blog posts"
+  schema: "Use JSON-LD for rich snippets"
+
+performance:
+  target: "Lighthouse score > 90"
+  mobile_first: "Design mobile, then scale up"
+  images: "Optimize and lazy-load"
+  caching: "Browser and CDN caching"
+  analytics: "Track user behavior and conversions"

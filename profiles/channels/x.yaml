@@ -1,0 +1,145 @@
+# X (Twitter) Channel Profile
+# Social media, public announcements, viral content, engagement
+# Version: 1.0
+
+name: "X"
+description: "Public social media platform for announcements, thought leadership, community engagement, and viral content distribution."
+
+constraints:
+  format: "Plain text + links + media"
+  character_limit: 280
+  media: "Images (1200x675), videos, GIFs, polls"
+  threading: "Tweet threads (multiple tweets)"
+  archival: "Public, searchable, permanent (unless deleted)"
+  rate_limits: "API rate limits, algorithmic amplification"
+
+audience:
+  primary: "Crypto community, builders, investors, media"
+  secondary: "General tech audience, brand followers"
+  size: "Public to all X users (~500M+ monthly)"
+
+best_practices:
+  - "Start threads with a hook or compelling statement"
+  - "Use relevant hashtags (#crypto, #web3, #ethereum, #ezlabs)"
+  - "Pin important announcements (1 per profile)"
+  - "Engage with replies and retweets"
+  - "Use visuals for engagement (images, videos)"
+  - "Post at optimal times (weekday mornings/evenings UTC)"
+  - "Keep language simple and punchy (280 chars is tight)"
+  - "Avoid jargon without explanation"
+
+tone_guidelines:
+  formality: "medium-casual"
+  primary_vibe: "builder"
+  secondary_vibes:
+    - "prestige"
+    - "public"
+  temperature: "energetic, authentic, accessible"
+  voice: "thought leader, accessible expert, community participant"
+  examples:
+    - "just hit mainnet. 1000+ TPS. human-verified. this is only the beginning 🔗"
+    - "the x402 router is doing 40% better than we projected. live benchmarks here 👇"
+    - "rebuilding web3 around humans, not hype. let's go 🚀"
+
+formatting_rules:
+  emphasis: "CAPS for emphasis (use sparingly), normal case default"
+  emojis: "1-2 per tweet for visual interest (🔗, 🚀, 📊, ✨)"
+  hashtags: "1-3 relevant hashtags at end"
+  links: "URL shorteners acceptable, links in thread pinned tweet"
+  mentions: "@username for mentions, use sparingly"
+  threads: "Hook tweet → 2-5 follow-up tweets → call-to-action"
+
+content_structure:
+  announcement: "Hook (lead with news) → details (thread) → CTA (link/action)"
+  thread: "Opening tweet with compelling statement → supporting tweets → conclusion"
+  retweet: "Add insight or context, don't just retweet"
+  reply: "Engage authentically, add value to conversation"
+  quote: "Add perspective, link back to original"
+
+do_list:
+  - "✓ Lead with news or compelling statement"
+  - "✓ Use threads for deeper dives (max 5-7 tweets)"
+  - "✓ Include visuals (images, charts, videos)"
+  - "✓ Link to detailed resources (docs, GitHub)"
+  - "✓ Engage with community replies"
+  - "✓ Use relevant, popular hashtags"
+  - "✓ Acknowledge wins and community"
+  - "✓ Share learning and insights"
+
+dont_list:
+  - "✗ Hype without substance ('moon', 'lambo', 'to the moon')"
+  - "✗ Over-explain (280 chars is tight, link to docs)"
+  - "✗ Spam hashtags or mentions"
+  - "✗ Delete tweets (archive instead)"
+  - "✗ Engage in heated debates (mute/block)"
+  - "✗ Promote other coins or projects (unless relevant)"
+  - "✗ Use bots for auto-liking or following"
+  - "✗ Share unverified claims"
+
+example_announcement:
+  content: |
+    🔗 mainnet is live
+
+    1000+ TPS
+    human-verified consensus
+    99.9% uptime SLA
+
+    this is just the beginning. full details: [link]
+
+    #ezchain #web3
+
+example_thread:
+  tweets:
+    - "why we rebuilt web3 around humans instead of hype. thread 🧵"
+    - "every blockchain says they're decentralized. but who actually verifies the validators? nobody."
+    - "we built Proof-of-Active-Human. every validator is a real person. real accountability."
+    - "result: slower than some, but verifiable. trustable. human-scale."
+    - "shipping is hard. shipping right is harder. we chose right. live now on mainnet 🚀"
+
+example_engagement:
+  reply: |
+    @person great question. we built x402 specifically for this use case — validators can route through multiple venues simultaneously. live now on mainnet [link]
+
+example_chart_post:
+  content: |
+    performance under load:
+
+    • 1000 TPS sustained
+    • <100ms finality
+    • 30% less energy than alternatives
+
+    full benchmarks here [link] 📊
+
+metadata:
+  optimal_vibes:
+    - "builder"
+    - "prestige"
+    - "public"
+  use_cases:
+    - "Product launches and announcements"
+    - "Thought leadership content"
+    - "Community engagement"
+    - "Real-time updates and news"
+    - "Building personal/brand authority"
+    - "Driving traffic to website/docs"
+  content_types:
+    - "Short punchy updates"
+    - "Threads (5-7 tweets)"
+    - "Visual charts/screenshots"
+    - "Videos and GIFs"
+    - "Engagement and replies"
+  not_ideal_for:
+    - "Long explanations (use Beehiiv)"
+    - "Technical deep dives (use GitHub)"
+    - "Customer support (use Discord/email)"
+
+strategy:
+  posting_frequency: "1-3 substantive tweets daily"
+  engagement: "Reply within 1-2 hours to replies"
+  community: "Retweet community wins and builders"
+  threads: "2-3 deep-dive threads per week"
+
+integration:
+  api: "Twitter API for scheduling, analytics"
+  third_party: "Buffer, Hootsuite, TweetDeck for management"
+  analytics: "Track impressions, engagement, reach"
