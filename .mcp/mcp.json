@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "ez-orchestrator": {
+      "command": "python3",
+      "args": [
+        "mcp/server.py"
+      ],
+      "env": {
+        "MCP_PROFILE_PATH": "./profiles",
+        "MCP_SCHEMA_PATH": "./schemas"
+      }
+    }
+  }
+}
