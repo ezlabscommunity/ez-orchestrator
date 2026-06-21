@@ -1,0 +1,42 @@
+# ZENDEX Project Profile
+# Institutional-grade trading platform with privacy and agent workflows
+# Status: Active
+
+name: "ZENDEX"
+description: "Institutional-grade trading platform featuring ZK privacy, deterministic routing, and agent-native workflows for institutional traders."
+category: "trading"
+
+pillars:
+  - "ZK Noir privacy for institutional traders"
+  - "Deterministic liquidity routing via x402"
+  - "Agent-native API for algorithmic trading"
+  - "Premium UI/UX for institutional experience"
+
+default_vibe: "prestige"
+secondary_vibes:
+  - "builder"
+  - "research"
+
+status: "active"
+
+channels:
+  - "github"
+  - "discord"
+  - "website"
+  - "internal_docs"
+  - "x"
+
+audience: "Institutional traders, funds, quants, algorithmic trading teams"
+
+links:
+  github: "https://github.com/ezlabscommunity/zendex"
+  docs: "https://docs.zendex.io"
+  website: "https://zendex.io"
+  discord: "https://discord.gg/ezlabs"
+
+metadata:
+  token: "ZENDEX"
+  tvl_target: "$100M+"
+  institutional_focus: true
+  privacy: "ZK Noir"
+  api_first: true

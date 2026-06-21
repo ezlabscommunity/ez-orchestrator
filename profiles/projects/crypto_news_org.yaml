@@ -1,0 +1,41 @@
+# CryptoNewsOrg Project Profile
+# Crypto news aggregator and auto-publishing engine
+# Status: Active
+
+name: "CryptoNewsOrg"
+description: "Crypto news aggregator ingesting from 100+ sources with intelligent filtering and auto-publishing to multiple channels."
+category: "content"
+
+pillars:
+  - "Intelligent news aggregation"
+  - "Spam and low-quality filtering"
+  - "Multi-channel auto-publishing"
+  - "Curated feeds"
+
+default_vibe: "prestige"
+secondary_vibes:
+  - "builder"
+  - "public"
+
+status: "active"
+
+channels:
+  - "website"
+  - "x"
+  - "discord"
+  - "telegram"
+  - "internal_docs"
+
+audience: "Crypto community, traders, investors, developers, media"
+
+links:
+  github: "https://github.com/ezlabscommunity/crypto-news-org"
+  website: "https://cryptonewsorg.io"
+  discord: "https://discord.gg/ezlabs"
+  feed: "https://feeds.cryptonewsorg.io"
+
+metadata:
+  news_sources: "100+"
+  update_frequency: "real-time"
+  channels_supported: 5+
+  curation: "algorithmic + human"

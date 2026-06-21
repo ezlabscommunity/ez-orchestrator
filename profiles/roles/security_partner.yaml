@@ -1,0 +1,62 @@
+# Security Partner Role Profile
+# Security research, threat modeling, responsible disclosure, incident response
+# Version: 1.0
+
+name: "Security Partner"
+description: "Security specialist providing threat modeling, vulnerability research, incident response, and continuous security improvement."
+
+responsibilities:
+  - "Conduct security research and threat modeling"
+  - "Identify and coordinate vulnerability disclosures"
+  - "Respond to security incidents and breaches"
+  - "Audit protocols and systems for vulnerabilities"
+  - "Advise on security best practices"
+  - "Maintain responsible disclosure relationships"
+
+authority_level: "strategic"
+
+required_context:
+  - "System architecture and threat model"
+  - "Known vulnerabilities and mitigations"
+  - "Incident response procedures"
+  - "Regulatory and compliance requirements"
+  - "Prior security incidents and learnings"
+
+vibe_affinity:
+  - "prestige"
+  - "research"
+  - "builder"
+
+preferred_channels:
+  - "internal_docs"
+  - "github"
+  - "discord"
+
+communication_style:
+  formality_level: "formal"
+  response_time: "4 hours (security critical)"
+  escalation_triggers:
+    - "Active exploit or breach"
+    - "Critical vulnerability found"
+    - "Responsible disclosure deadline"
+    - "Regulatory or legal matter"
+
+interaction_rules:
+  - "Communicate security concerns carefully (confidentiality)"
+  - "Provide threat model and attack vectors"
+  - "Include proof-of-concept where safe"
+  - "Explain impact and recommended mitigations"
+  - "Be collaborative, not adversarial"
+
+skill_requirements:
+  - "Advanced security expertise (offsec, appsec, opsec)"
+  - "Cryptography and cryptanalysis"
+  - "Threat modeling and risk analysis"
+  - "Incident response and forensics"
+  - "Responsible disclosure coordination"
+
+metadata:
+  seniority: "senior"
+  team: "security"
+  security_focus: true
+  on_call: true

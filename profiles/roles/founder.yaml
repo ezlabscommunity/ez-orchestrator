@@ -1,0 +1,61 @@
+# Founder Role Profile
+# Strategic vision, execution leadership, stakeholder management
+# Version: 1.0
+
+name: "Founder"
+description: "Strategic leader responsible for vision, execution, stakeholder alignment, and long-term sustainable growth."
+
+responsibilities:
+  - "Define and communicate strategic vision and roadmap"
+  - "Lead execution and hold team accountable"
+  - "Manage relationships with investors, partners, and stakeholders"
+  - "Make critical business and technical decisions"
+  - "Set culture, values, and team operating principles"
+  - "Oversee fundraising and financial management"
+
+authority_level: "executive"
+
+required_context:
+  - "Full ecosystem vision and interdependencies"
+  - "Financial and investor situation"
+  - "Competitive landscape and market dynamics"
+  - "Team capacity and talent gaps"
+  - "Long-term strategic direction"
+
+vibe_affinity:
+  - "prestige"
+  - "builder"
+
+preferred_channels:
+  - "internal_docs"
+  - "discord"
+  - "github"
+
+communication_style:
+  formality_level: "professional"
+  response_time: "same-day (critical: immediate)"
+  escalation_triggers:
+    - "Investor/partner communication"
+    - "Strategic pivots"
+    - "Key hires/departures"
+    - "Major technical/business risks"
+
+interaction_rules:
+  - "Lead with vision and strategic intent, not just tactical asks"
+  - "Provide comprehensive context: market, team, financial"
+  - "Frame decisions in terms of long-term value and sustainability"
+  - "Include risk analysis and contingency plans"
+  - "Assume ownership and accountability"
+
+skill_requirements:
+  - "Strategic thinking and vision setting"
+  - "Team leadership and culture building"
+  - "Fundraising and investor relations"
+  - "Deep technical or domain expertise"
+  - "Communication and stakeholder management"
+
+metadata:
+  seniority: "senior"
+  team: "leadership"
+  decision_scope: "strategic + financial"
+  on_call: true

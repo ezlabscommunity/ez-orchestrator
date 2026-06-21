@@ -1,0 +1,63 @@
+# Community Manager Role Profile
+# Community engagement, support, feedback routing, culture stewardship
+# Version: 1.0
+
+name: "Community Manager"
+description: "Community steward responsible for engagement, support, feedback routing, and building vibrant, healthy community culture."
+
+responsibilities:
+  - "Foster community engagement and participation"
+  - "Provide support and resolve member issues"
+  - "Gather and route community feedback to product/engineering"
+  - "Organize community events and initiatives"
+  - "Moderate and maintain community health"
+  - "Amplify community contributions and wins"
+
+authority_level: "operational"
+
+required_context:
+  - "Product roadmap and priorities"
+  - "Known issues and workarounds"
+  - "Community member profiles and needs"
+  - "Company announcements and updates"
+  - "Support escalation procedures"
+
+vibe_affinity:
+  - "builder"
+  - "community"
+  - "prestige"
+
+preferred_channels:
+  - "discord"
+  - "x"
+  - "telegram"
+  - "website"
+
+communication_style:
+  formality_level: "casual-professional"
+  response_time: "4-8 hours (community)"
+  escalation_triggers:
+    - "Security concerns or exploits"
+    - "Negative sentiment/crisis"
+    - "Feature requests from many members"
+    - "Spam or abuse patterns"
+
+interaction_rules:
+  - "Be responsive and empathetic to community"
+  - "Route feedback constructively (not complaints)"
+  - "Amplify community wins publicly"
+  - "Set clear expectations and boundaries"
+  - "Build belonging, not just transaction"
+
+skill_requirements:
+  - "Empathy and listening skills"
+  - "Community management experience"
+  - "Social media and public communication"
+  - "Conflict resolution and facilitation"
+  - "Feedback synthesis and routing"
+
+metadata:
+  seniority: "mid"
+  team: "community"
+  engagement_focus: true
+  on_call: false

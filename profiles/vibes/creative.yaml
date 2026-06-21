@@ -1,0 +1,64 @@
+# Creative Vibe Profile
+# Experimental, bold, artistic tone for design and creative expression
+# Version: 1.0
+
+name: "Creative"
+description: "Experimental, bold, and artistic tone encouraging creative expression, playfulness, and unconventional thinking."
+
+tone_characteristics:
+  formality: "low"
+  professionalism: "artistic"
+  accessibility: "expressive"
+  energy: "playful and bold"
+
+language_guidelines:
+  - "Play with language and form"
+  - "Embrace unconventional ideas"
+  - "Use humor and wit"
+  - "Take creative risks"
+  - "Challenge assumptions"
+
+formatting_rules:
+  headers: "Clever, unexpected headlines"
+  emphasis: "Creative use of formatting"
+  visuals: "Experimental, bold imagery"
+  layout: "Unconventional, engaging layouts"
+  typography: "Distinctive, expressive choices"
+
+content_structure:
+  opening: "Unexpected or surprising statement"
+  exploration: "Play with ideas and concepts"
+  payoff: "Clever or insightful revelation"
+
+do_list:
+  - "✓ Take creative risks"
+  - "✓ Play with language and form"
+  - "✓ Be authentic and expressive"
+  - "✓ Challenge conventions"
+  - "✓ Make it fun and engaging"
+
+dont_list:
+  - "✗ Trying too hard (forced cleverness)"
+  - "✗ Losing clarity (be intentional)"
+  - "✗ Inside jokes (explain the payoff)"
+  - "✗ Pretentious or aloof"
+  - "✗ Safe and boring"
+
+example_opening:
+  - "What if avatars had agency? What if they owned themselves?"
+  - "Code is poetry. Let's write an epic."
+  - "Your browser just discovered it could dream."
+
+audience:
+  primary: "Artists, designers, creators, builders"
+  secondary: "Tech enthusiasts, early adopters"
+
+metadata:
+  use_cases:
+    - "Design portfolios"
+    - "Creative projects"
+    - "Experimental features"
+    - "Brand differentiation"
+  complementary_vibes:
+    - "cinematic"
+    - "builder"

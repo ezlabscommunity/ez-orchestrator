@@ -1,0 +1,41 @@
+# Ojet3D Project Profile
+# 3D asset, motion, and world-building pipeline
+# Status: Active
+
+name: "Ojet3D"
+description: "3D asset, motion, and world-building pipeline for creating avatars, spatial content, and visual identity across EZ Labs ecosystem."
+category: "creative"
+
+pillars:
+  - "Avatar creation and customization"
+  - "Motion capture and animation"
+  - "Spatial content tools"
+  - "Visual identity system"
+
+default_vibe: "cinematic"
+secondary_vibes:
+  - "builder"
+  - "creative"
+
+status: "active"
+
+channels:
+  - "github"
+  - "discord"
+  - "website"
+  - "internal_docs"
+  - "youtube"
+
+audience: "3D artists, game developers, metaverse creators, designers"
+
+links:
+  github: "https://github.com/ezlabscommunity/ojet3d"
+  docs: "https://docs.ojet3d.io"
+  website: "https://ojet3d.io"
+  discord: "https://discord.gg/ezlabs"
+
+metadata:
+  asset_format: "GLTF/GLB"
+  animation_support: true
+  avatar_customization: true
+  world_building: true

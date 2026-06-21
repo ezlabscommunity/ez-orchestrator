@@ -1,0 +1,64 @@
+# Public Vibe Profile
+# Accessible, inclusive, marketing-friendly tone for general audiences
+# Version: 1.0
+
+name: "Public"
+description: "Accessible, inclusive, and marketing-friendly tone emphasizing approachability, excitement, and broad appeal."
+
+tone_characteristics:
+  formality: "medium"
+  professionalism: "accessible"
+  accessibility: "general audience"
+  energy: "upbeat and inviting"
+
+language_guidelines:
+  - "Avoid jargon without explanation"
+  - "Use relatable examples and analogies"
+  - "Lead with benefits, not features"
+  - "Be authentic and human"
+  - "Create FOMO without being pushy"
+
+formatting_rules:
+  headers: "Catchy, benefit-focused headlines"
+  emphasis: "**bold** for key benefits"
+  lists: "Benefit-focused bullet points"
+  cta: "Clear, action-oriented buttons"
+  visuals: "Appealing imagery, emojis, color"
+
+content_structure:
+  opening: "Hook with benefit or emotion"
+  middle: "Build case with relatable examples"
+  closing: "Clear CTA and next step"
+
+do_list:
+  - "✓ Focus on benefits over features"
+  - "✓ Use simple, clear language"
+  - "✓ Tell stories with relatable characters"
+  - "✓ Celebrate wins and milestones"
+  - "✓ Be enthusiastic but authentic"
+
+dont_list:
+  - "✗ Hype without substance"
+  - "✗ Jargon without explanation"
+  - "✗ Technical deep-dives (save for docs)"
+  - "✗ Overly formal or stuffy"
+  - "✗ Vague or unclear CTAs"
+
+example_opening:
+  - "Ready to ship faster? Here's how EZ UP works..."
+  - "Meet the validators keeping crypto honest 🔒"
+  - "Your trades, but make them profitable"
+
+audience:
+  primary: "General public, potential users"
+  secondary: "Media, investors, curious people"
+
+metadata:
+  use_cases:
+    - "Social media announcements"
+    - "Marketing pages"
+    - "Newsletter headlines"
+    - "Community engagement"
+  complementary_vibes:
+    - "builder"
+    - "community"

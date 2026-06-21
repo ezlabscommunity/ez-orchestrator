@@ -1,0 +1,41 @@
+# EZVERSE Project Profile
+# Unified world layer with identity, progression, and metaverse integration
+# Status: Active
+
+name: "EZVERSE"
+description: "Unified world layer providing cross-project identity, progression systems, narrative, and metaverse integration for EZ Labs ecosystem."
+category: "cultural"
+
+pillars:
+  - "Cross-project identity system"
+  - "Unified progression and achievements"
+  - "Narrative and world-building"
+  - "Metaverse integration (Otherside)"
+
+default_vibe: "prestige"
+secondary_vibes:
+  - "builder"
+  - "cinematic"
+
+status: "active"
+
+channels:
+  - "github"
+  - "discord"
+  - "website"
+  - "internal_docs"
+  - "x"
+
+audience: "Web3 gamers, metaverse builders, EZ Labs community members"
+
+links:
+  github: "https://github.com/ezlabscommunity/ezverse"
+  docs: "https://docs.ezverse.io"
+  website: "https://ezverse.io"
+  discord: "https://discord.gg/ezlabs"
+
+metadata:
+  identity_layer: true
+  metaverse_partner: "Otherside"
+  progression_system: true
+  world_building: true

@@ -1,0 +1,41 @@
+# Tech News Studio Project Profile
+# AI-powered news production transforming aggregated content to insights
+# Status: Active
+
+name: "Tech News Studio"
+description: "AI-powered news production studio transforming aggregated content into personalized insights, analysis, and narrative."
+category: "content"
+
+pillars:
+  - "AI-powered content transformation"
+  - "Personalized narrative generation"
+  - "Technical analysis and depth"
+  - "Multi-format content production"
+
+default_vibe: "builder"
+secondary_vibes:
+  - "prestige"
+  - "research"
+
+status: "active"
+
+channels:
+  - "website"
+  - "beehiv"
+  - "youtube"
+  - "x"
+  - "discord"
+
+audience: "Tech professionals, developers, researchers, technology enthusiasts"
+
+links:
+  github: "https://github.com/ezlabscommunity/tech-news-studio"
+  website: "https://technewsstudio.io"
+  discord: "https://discord.gg/ezlabs"
+  newsletter: "https://technewsstudio.beehiiv.com"
+
+metadata:
+  ai_powered: true
+  personalization: true
+  content_formats: ["articles", "videos", "graphics", "newsletters"]
+  update_frequency: "daily"

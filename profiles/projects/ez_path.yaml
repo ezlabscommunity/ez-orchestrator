@@ -1,0 +1,41 @@
+# EZ Path Project Profile
+# Agentic price orchestrator and deterministic liquidity router
+# Status: Active
+
+name: "EZ Path"
+description: "Deterministic liquidity router using x402 meta-router to orchestrate price discovery across 10+ venues with verifiable execution."
+category: "infrastructure"
+
+pillars:
+  - "x402 meta-router for deterministic routing"
+  - "Multi-venue liquidity aggregation"
+  - "Agent-native API design"
+  - "Verifiable, auditable execution"
+
+default_vibe: "builder"
+secondary_vibes:
+  - "prestige"
+  - "research"
+
+status: "active"
+
+channels:
+  - "github"
+  - "discord"
+  - "website"
+  - "internal_docs"
+  - "x"
+
+audience: "Traders, DEXs, venues, algorithmic agents, DeFi protocols"
+
+links:
+  github: "https://github.com/ezlabscommunity/ez-path"
+  docs: "https://docs.ezpath.io"
+  website: "https://ezpath.io"
+  discord: "https://discord.gg/ezlabs"
+
+metadata:
+  venues_supported: 10+
+  throughput: "1000+ TPS"
+  settlement: "Base x402"
+  api_type: "agent-native"

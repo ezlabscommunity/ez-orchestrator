@@ -1,0 +1,41 @@
+# EZ UP Project Profile
+# Creator-facing growth engine automating distribution and rewards
+# Status: Active
+
+name: "EZ UP"
+description: "Creator-facing growth engine automating distribution, rewards, and audience expansion via EZ Path liquidity routing."
+category: "creative"
+
+pillars:
+  - "Automated creator rewards distribution"
+  - "Cross-platform audience expansion"
+  - "Liquidity-incentivized growth"
+  - "Creator SDK and tools"
+
+default_vibe: "builder"
+secondary_vibes:
+  - "prestige"
+  - "community"
+
+status: "active"
+
+channels:
+  - "github"
+  - "discord"
+  - "website"
+  - "x"
+  - "internal_docs"
+
+audience: "Creators, content producers, indie builders, influencers"
+
+links:
+  github: "https://github.com/ezlabscommunity/ez-up"
+  docs: "https://docs.ezup.io"
+  website: "https://ezup.io"
+  discord: "https://discord.gg/ezlabs"
+
+metadata:
+  creator_focus: true
+  reward_distribution: "on-chain"
+  growth_mechanics: "liquidity-incentivized"
+  sdk_available: true

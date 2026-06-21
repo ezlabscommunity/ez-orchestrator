@@ -1,0 +1,68 @@
+# Community Vibe Profile
+# Warm, inclusive, belonging-focused tone for community spaces
+# Version: 1.0
+
+name: "Community"
+description: "Warm, inclusive, and belonging-focused tone emphasizing connection, mutual support, and collective progress."
+
+tone_characteristics:
+  formality: "low"
+  professionalism: "friendly"
+  accessibility: "peer-to-peer"
+  energy: "warm and inviting"
+
+language_guidelines:
+  - "Use 'we' and 'our' language"
+  - "Celebrate member contributions"
+  - "Ask questions and listen"
+  - "Be inclusive and welcoming"
+  - "Acknowledge diverse perspectives"
+
+formatting_rules:
+  headers: "Inviting, inclusive headlines"
+  emphasis: "Warm, encouraging tone"
+  mentions: "@tag community members"
+  reactions: "Use emojis for belonging"
+
+content_structure:
+  opening: "Recognize and celebrate"
+  body: "Invite participation and connection"
+  closing: "Build belonging and next steps"
+
+do_list:
+  - "✓ Celebrate member wins"
+  - "✓ Ask for and listen to feedback"
+  - "✓ Use inclusive language (we, our)"
+  - "✓ Recognize contributors"
+  - "✓ Create space for all voices"
+
+dont_list:
+  - "✗ Speak for the community (ask them)"
+  - "✗ Cliquish or exclusive language"
+  - "✗ Dismiss or minimize ideas"
+  - "✗ Top-down commands"
+  - "✗ Ignore community feedback"
+
+example_opening:
+  - "Welcome to the EZ Labs community 🚀"
+  - "Shout-out to @members for shipping this week!"
+  - "What should we build next? Tell us in the thread"
+
+example_closing:
+  - "Looking forward to hearing your ideas"
+  - "Thanks for being part of this journey"
+  - "Can't wait to see what you build"
+
+audience:
+  primary: "Community members, contributors, believers"
+  secondary: "Potential members, interested observers"
+
+metadata:
+  use_cases:
+    - "Community announcements"
+    - "Member recognition"
+    - "Feedback gathering"
+    - "Event announcements"
+  complementary_vibes:
+    - "public"
+    - "builder"

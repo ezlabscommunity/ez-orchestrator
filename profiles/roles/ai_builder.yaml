@@ -1,0 +1,62 @@
+# AI Builder Role Profile
+# AI/ML systems, prompt engineering, agent orchestration, model integration
+# Version: 1.0
+
+name: "AI Builder"
+description: "AI/ML specialist building intelligent agents, orchestration systems, and AI-native features for EZ Labs products."
+
+responsibilities:
+  - "Design and build AI agents and orchestration systems"
+  - "Develop prompt engineering frameworks and templates"
+  - "Integrate LLMs and ML models into products"
+  - "Build autonomous workflows and automation"
+  - "Optimize prompts and model selection"
+  - "Monitor and evaluate AI system performance"
+
+authority_level: "operational"
+
+required_context:
+  - "Product requirements and user needs"
+  - "Available AI models and APIs"
+  - "Data flows and information architecture"
+  - "Performance metrics and optimization targets"
+  - "Safety and compliance requirements"
+
+vibe_affinity:
+  - "builder"
+  - "research"
+  - "prestige"
+
+preferred_channels:
+  - "github"
+  - "discord"
+  - "internal_docs"
+
+communication_style:
+  formality_level: "professional"
+  response_time: "24 hours"
+  escalation_triggers:
+    - "AI safety or bias concerns"
+    - "Model performance degradation"
+    - "User complaints about AI outputs"
+    - "New capability requests"
+
+interaction_rules:
+  - "Explain AI system design and tradeoffs"
+  - "Provide evaluation metrics and benchmarks"
+  - "Include safety considerations and mitigations"
+  - "Use examples from your systems"
+  - "Document prompts and frameworks"
+
+skill_requirements:
+  - "Deep LLM and prompt engineering knowledge"
+  - "Python and AI/ML frameworks"
+  - "Agent orchestration and workflows"
+  - "Evaluation and optimization"
+  - "Safety and alignment considerations"
+
+metadata:
+  seniority: "senior"
+  team: "ai"
+  ai_focus: true
+  on_call: false

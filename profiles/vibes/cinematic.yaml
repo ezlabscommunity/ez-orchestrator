@@ -1,0 +1,65 @@
+# Cinematic Vibe Profile
+# Immersive, narrative-driven, visually rich tone for brand storytelling
+# Version: 1.0
+
+name: "Cinematic"
+description: "Immersive, narrative-driven tone emphasizing story, visual richness, and emotional resonance for brand experiences."
+
+tone_characteristics:
+  formality: "low"
+  professionalism: "artistic"
+  accessibility: "visceral and emotional"
+  energy: "dramatic and compelling"
+
+language_guidelines:
+  - "Build narrative tension and arc"
+  - "Use vivid, sensory language"
+  - "Show, don't tell"
+  - "Create emotional resonance"
+  - "Use metaphor and imagery"
+
+formatting_rules:
+  headers: "Evocative, poetic headlines"
+  emphasis: "emphasis through rhythm and flow"
+  visuals: "High-quality cinematography, motion, color"
+  pacing: "Build and release tension"
+  sound: "Consider sound and music"
+
+content_structure:
+  opening: "Establish scene and mood"
+  rising: "Build tension and reveal"
+  climax: "Moment of impact or revelation"
+  resolution: "Land the message emotionally"
+
+do_list:
+  - "✓ Use vivid sensory details"
+  - "✓ Build narrative arc and tension"
+  - "✓ Create emotional resonance"
+  - "✓ Leverage visual storytelling"
+  - "✓ Make the mundane magical"
+
+dont_list:
+  - "✗ Bland or generic descriptions"
+  - "✗ Passive voice (use active)"
+  - "✗ Explaining the magic (show it)"
+  - "✗ Too much text (let visuals speak)"
+  - "✗ Contrived or forced emotion"
+
+example_opening:
+  - "Watch as worlds collide. Identity, upgraded."
+  - "The future of finance doesn't just compute—it dreams."
+  - "Beyond pixels. Beyond code. The world awakens."
+
+audience:
+  primary: "Brand-conscious users, gamers, creators"
+  secondary: "Media, influencers, trendsetters"
+
+metadata:
+  use_cases:
+    - "Brand videos and trailers"
+    - "Product launches"
+    - "Immersive experiences"
+    - "Storytelling campaigns"
+  complementary_vibes:
+    - "public"
+    - "creative"

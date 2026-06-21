@@ -1,0 +1,63 @@
+# Creative Technologist Role Profile
+# Design, motion, brand, spatial content, user experience
+# Version: 1.0
+
+name: "Creative Technologist"
+description: "Creative leader bridging design, technology, and brand, building beautiful, intuitive, immersive experiences."
+
+responsibilities:
+  - "Lead design and UX for products and interfaces"
+  - "Create motion, animation, and visual identity"
+  - "Build spatial and immersive content"
+  - "Develop brand guidelines and design systems"
+  - "Collaborate with engineering on implementation"
+  - "Prototype and validate design concepts"
+
+authority_level: "operational"
+
+required_context:
+  - "Product vision and user needs"
+  - "Technical constraints and capabilities"
+  - "Brand identity and guidelines"
+  - "User feedback and design metrics"
+  - "Platform specifications (web, 3D, mobile)"
+
+vibe_affinity:
+  - "builder"
+  - "cinematic"
+  - "creative"
+
+preferred_channels:
+  - "discord"
+  - "internal_docs"
+  - "github"
+  - "youtube"
+
+communication_style:
+  formality_level: "professional-casual"
+  response_time: "24-48 hours"
+  escalation_triggers:
+    - "Design system changes"
+    - "Brand guideline conflicts"
+    - "Major UX rework needed"
+    - "User experience issues"
+
+interaction_rules:
+  - "Show your work (designs, prototypes, iterations)"
+  - "Explain design decisions and tradeoffs"
+  - "Include user feedback and research"
+  - "Provide assets and implementation specs"
+  - "Collaborate openly with engineering"
+
+skill_requirements:
+  - "Advanced design and UX skills"
+  - "Motion and animation expertise"
+  - "3D and spatial design knowledge"
+  - "Brand and identity design"
+  - "Prototyping and user testing"
+
+metadata:
+  seniority: "senior"
+  team: "creative"
+  design_focus: true
+  on_call: false

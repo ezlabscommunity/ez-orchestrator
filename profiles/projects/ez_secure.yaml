@@ -1,0 +1,40 @@
+# EZ Secure Project Profile
+# Security tooling and audit framework
+# Status: Active
+
+name: "EZ Secure"
+description: "Security tooling and audit framework for verifying protocol safety, conducting security reviews, and coordinating responsible disclosure."
+category: "security"
+
+pillars:
+  - "Protocol security auditing"
+  - "Vulnerability coordination"
+  - "Security best practices"
+  - "Incident response tooling"
+
+default_vibe: "prestige"
+secondary_vibes:
+  - "research"
+  - "builder"
+
+status: "active"
+
+channels:
+  - "github"
+  - "discord"
+  - "internal_docs"
+  - "website"
+
+audience: "Security researchers, protocol builders, auditors, incident responders"
+
+links:
+  github: "https://github.com/ezlabscommunity/ez-secure"
+  docs: "https://docs.ezsecure.io"
+  website: "https://ezsecure.io"
+  discord: "https://discord.gg/ezlabs"
+
+metadata:
+  security_focus: true
+  audit_framework: true
+  responsible_disclosure: true
+  threat_modeling: true
