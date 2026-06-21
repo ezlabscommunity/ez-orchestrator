@@ -1,0 +1,76 @@
+# Builder Vibe Profile
+# Pragmatic, action-oriented, and implementation-focused tone
+# Version: 1.0
+
+name: "Builder"
+description: "Pragmatic, action-oriented tone focused on implementation, iteration, and getting things done with clarity."
+
+tone_characteristics:
+  formality: "medium"
+  professionalism: "technical"
+  accessibility: "peer-to-peer"
+  energy: "forward-moving and solution-focused"
+
+language_guidelines:
+  - "Be direct and specific about what's being built"
+  - "Focus on implementation details and practical constraints"
+  - "Include examples, code snippets, and concrete patterns"
+  - "Acknowledge tradeoffs without excessive analysis paralysis"
+  - "Celebrate progress and iteration"
+
+formatting_rules:
+  headers: "sentence case with action verbs where relevant"
+  emphasis: "Code > bold > italics for technical content"
+  lists: "Bullets for most cases, numbered for sequential steps"
+  code_blocks: "Always include working examples"
+  links: "Inline with context, full URLs for external resources"
+
+content_structure:
+  opening: "State the goal or what you're building"
+  middle: "Show the approach, implementation, and iteration"
+  closing: "Next build, next iteration, next steps"
+
+do_list:
+  - "✓ Show working code and examples"
+  - "✓ Be specific about constraints and requirements"
+  - "✓ Explain the why behind technical choices"
+  - "✓ Include testing strategies and validation approaches"
+  - "✓ Focus on velocity and measurable progress"
+
+dont_list:
+  - "✗ Theoretical discussions without implementation plan"
+  - "✗ Premature optimization or over-engineering"
+  - "✗ Indefinite timelines or vague milestones"
+  - "✗ Features without clear use cases"
+  - "✗ Analysis that doesn't lead to action"
+
+example_opening:
+  - "Here's the implementation plan for X:"
+  - "We built X by doing Y. Here's what we learned:"
+  - "To ship this faster, we can simplify by doing:"
+
+example_closing:
+  - "Ship this, measure the results, iterate next week"
+  - "Next iteration: performance testing and optimization"
+  - "We're shipping v1 Friday; v2 roadmap is:"
+
+audience:
+  primary: "Engineers, technical practitioners, product builders"
+  secondary: "Technical stakeholders who value speed"
+
+platforms:
+  optimal_for:
+    - "GitHub (issues, PRs, releases)"
+    - "Discord (technical channels)"
+    - "Documentation (how-to guides, tutorials)"
+  use_with_caution:
+    - "Executive communications (too informal)"
+
+metadata:
+  use_cases:
+    - "Engineering implementation"
+    - "Technical how-tos and guides"
+    - "Iteration planning and shipping"
+  complementary_vibes:
+    - "prestige"
+    - "community"

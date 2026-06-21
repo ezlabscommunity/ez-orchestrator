@@ -1,0 +1,142 @@
+# Project Profile Schema
+# Defines the structure and validation rules for all project profiles
+# Version: 1.0
+
+schema_version: "1.0"
+schema_type: "project"
+description: "Validation schema for EZ Labs project profiles"
+
+# Required fields (must be present in every project profile)
+required_fields:
+  - name
+  - description
+  - category
+  - pillars
+  - default_vibe
+  - status
+
+# Field definitions and constraints
+fields:
+  name:
+    type: string
+    description: "Official project name"
+    constraints:
+      min_length: 3
+      max_length: 50
+      pattern: "^[a-zA-Z0-9 \\-]+$"
+    example: "EZ Chain"
+
+  description:
+    type: string
+    description: "Concise project description (1-2 sentences)"
+    constraints:
+      min_length: 10
+      max_length: 500
+    example: "Proof-of-Active-Human blockchain"
+
+  category:
+    type: enum
+    description: "Project category for routing and context"
+    allowed_values:
+      - infrastructure
+      - trading
+      - creative
+      - content
+      - security
+      - tooling
+      - gaming
+      - cultural
+    example: "infrastructure"
+
+  pillars:
+    type: array
+    description: "Core principles or pillars (2-5 items)"
+    items:
+      type: string
+      min_length: 5
+      max_length: 100
+    constraints:
+      min_items: 2
+      max_items: 5
+    example:
+      - "Proof-of-Active-Human consensus"
+      - "Decentralized validation"
+
+  default_vibe:
+    type: string
+    description: "Primary tone/vibe for this project"
+    constraints:
+      allowed_references: "vibes/*.yaml"
+    example: "prestige"
+
+  secondary_vibes:
+    type: array
+    description: "Alternative vibes (optional, 0-3 items)"
+    items:
+      type: string
+    constraints:
+      max_items: 3
+      allowed_references: "vibes/*.yaml"
+    example:
+      - "builder"
+      - "research"
+
+  status:
+    type: enum
+    description: "Current project status"
+    allowed_values:
+      - active
+      - beta
+      - planning
+      - archived
+      - hibernating
+    example: "active"
+
+  channels:
+    type: array
+    description: "Primary communication channels"
+    items:
+      type: string
+    constraints:
+      min_items: 1
+      allowed_references: "channels/*.yaml"
+    example:
+      - "github"
+      - "discord"
+      - "website"
+
+  audience:
+    type: string
+    description: "Target audience segment"
+    constraints:
+      max_length: 200
+    example: "Developers, validators, blockchain enthusiasts"
+
+  links:
+    type: object
+    description: "Important project links"
+    properties:
+      github:
+        type: string
+      docs:
+        type: string
+      website:
+        type: string
+      discord:
+        type: string
+    example:
+      github: "https://github.com/ezlabscommunity/ez-chain"
+      docs: "https://docs.ezchain.ai"
+
+  metadata:
+    type: object
+    description: "Additional custom metadata"
+    example:
+      token: "EZC"
+      mainnet: true
+
+# Validation rules (cross-field constraints)
+validation_rules:
+  - rule: "if status is 'archived' or 'hibernating', channels should be minimal"
+  - rule: "default_vibe must exist in vibes/ directory"
+  - rule: "all channel references must exist in channels/ directory"

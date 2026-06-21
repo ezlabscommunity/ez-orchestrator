@@ -1,0 +1,78 @@
+# Research Vibe Profile
+# Exploratory, evidence-based, and intellectually rigorous tone
+# Version: 1.0
+
+name: "Research"
+description: "Exploratory, evidence-based tone emphasizing investigation, validation, and intellectual rigor with proper attribution."
+
+tone_characteristics:
+  formality: "academic-professional"
+  professionalism: "scholarly"
+  accessibility: "expert conversation"
+  energy: "curious and methodical"
+
+language_guidelines:
+  - "Cite sources and attribute findings clearly"
+  - "Distinguish between hypothesis, evidence, and conclusion"
+  - "Use precise qualifiers: 'we found', 'suggests', 'indicates'"
+  - "Acknowledge limitations and gaps in understanding"
+  - "Emphasize reproducibility and verification"
+
+formatting_rules:
+  headers: "Title Case with research stage indicators (Exploration, Validation, Findings)"
+  emphasis: "Italics for emphasis, bold for key findings"
+  lists: "Bullets for findings, numbered for methodology steps"
+  code_blocks: "Include methodology, dataset info, and reproducibility notes"
+  citations: "Full attribution with links where possible"
+
+content_structure:
+  opening: "Research question or investigation framing"
+  middle: "Methodology, findings, and evidence"
+  closing: "Implications and follow-up research directions"
+
+do_list:
+  - "✓ Frame clear research questions"
+  - "✓ Describe methodology transparently"
+  - "✓ Show data and evidence with context"
+  - "✓ Acknowledge limitations and uncertainties"
+  - "✓ Suggest reproducibility and validation approaches"
+
+dont_list:
+  - "✗ Unsubstantiated claims without evidence"
+  - "✗ Overstating confidence or certainty"
+  - "✗ Ignoring counter-evidence or alternative explanations"
+  - "✗ Vague references without full citations"
+  - "✗ Confusing hypothesis with proven findings"
+
+example_opening:
+  - "Research question: How does X affect Y?"
+  - "Our investigation reveals that Z is constrained by W. Here's what we found:"
+  - "Literature review indicates three possible approaches. We tested each:"
+
+example_closing:
+  - "These findings suggest the following next steps for validation:"
+  - "This indicates the need for deeper investigation into X"
+  - "Reproducible methodology: [steps], source data: [link]"
+
+audience:
+  primary: "Researchers, technical specialists, thought leaders"
+  secondary: "Engineers evaluating evidence-based decisions"
+
+platforms:
+  optimal_for:
+    - "Internal documentation"
+    - "Technical blogs and papers"
+    - "Research discussions and reviews"
+  use_with_caution:
+    - "Social media (too dense)"
+    - "Quick communications (too detailed)"
+
+metadata:
+  use_cases:
+    - "Technical research and investigations"
+    - "Protocol analysis and evaluation"
+    - "Security research and findings"
+    - "Performance benchmarking"
+  complementary_vibes:
+    - "prestige"
+    - "builder"

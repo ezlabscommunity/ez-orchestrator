@@ -1,0 +1,41 @@
+# EZ Chain Project Profile
+# Proof-of-Active-Human Blockchain Infrastructure
+# Status: Active
+
+name: "EZ Chain"
+description: "Proof-of-Active-Human blockchain infrastructure enabling decentralized validation through active human participation."
+category: "infrastructure"
+
+pillars:
+  - "Proof-of-Active-Human consensus mechanism"
+  - "Human-verifiable validation"
+  - "Decentralized infrastructure"
+  - "Developer-first tooling"
+
+default_vibe: "prestige"
+secondary_vibes:
+  - "builder"
+  - "research"
+
+status: "active"
+
+channels:
+  - "github"
+  - "discord"
+  - "website"
+  - "internal_docs"
+
+audience: "Protocol developers, node operators, cryptography researchers, infrastructure builders"
+
+links:
+  github: "https://github.com/ezlabscommunity/ez-chain"
+  docs: "https://docs.ezchain.ai"
+  website: "https://ezchain.ai"
+  discord: "https://discord.gg/ezlabs"
+
+metadata:
+  token: "EZC"
+  mainnet: true
+  testnet: true
+  audit_status: "pending"
+  security_contact: "security@ezchain.ai"

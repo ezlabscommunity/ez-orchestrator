@@ -1,0 +1,152 @@
+# Role Profile Schema
+# Defines the structure and validation rules for all role profiles
+# Version: 1.0
+
+schema_version: "1.0"
+schema_type: "role"
+description: "Validation schema for EZ Labs role profiles"
+
+# Required fields
+required_fields:
+  - name
+  - description
+  - authority_level
+  - vibe_affinity
+
+# Field definitions and constraints
+fields:
+  name:
+    type: string
+    description: "Role title/name"
+    constraints:
+      min_length: 3
+      max_length: 50
+      pattern: "^[a-zA-Z0-9 \\-_]+$"
+    example: "Core Engineer"
+
+  description:
+    type: string
+    description: "Role description (1-2 sentences)"
+    constraints:
+      min_length: 10
+      max_length: 400
+    example: "Responsible for architecture, implementation, and technical infrastructure"
+
+  responsibilities:
+    type: array
+    description: "Key responsibilities (2-8 items)"
+    items:
+      type: string
+      min_length: 10
+      max_length: 150
+    constraints:
+      min_items: 2
+      max_items: 8
+    example:
+      - "Design and implement core protocol features"
+      - "Code review and quality assurance"
+      - "Technical documentation and knowledge transfer"
+
+  authority_level:
+    type: enum
+    description: "Decision-making authority tier"
+    allowed_values:
+      - executive
+      - strategic
+      - operational
+      - tactical
+      - contributor
+    example: "strategic"
+
+  required_context:
+    type: array
+    description: "Essential context/information this role needs (1-5 items)"
+    items:
+      type: string
+    constraints:
+      min_items: 1
+      max_items: 5
+    example:
+      - "Technical architecture and design patterns"
+      - "Project roadmap and milestones"
+      - "Team capacity and availability"
+
+  vibe_affinity:
+    type: array
+    description: "Vibes this role aligns with (1-3 items)"
+    items:
+      type: string
+    constraints:
+      min_items: 1
+      max_items: 3
+      allowed_references: "vibes/*.yaml"
+    example:
+      - "prestige"
+      - "builder"
+      - "research"
+
+  preferred_channels:
+    type: array
+    description: "Preferred communication channels (optional)"
+    items:
+      type: string
+    constraints:
+      allowed_references: "channels/*.yaml"
+    example:
+      - "github"
+      - "discord"
+      - "internal_docs"
+
+  communication_style:
+    type: object
+    description: "Communication guidelines for this role"
+    properties:
+      formality_level:
+        type: enum
+        allowed_values: [formal, professional, casual, varied]
+        example: "professional"
+      response_time:
+        type: string
+        example: "24-48 hours"
+      escalation_triggers:
+        type: array
+        items:
+          type: string
+        example:
+          - "Critical security issues"
+          - "Timeline impacts"
+          - "Technical blockers"
+
+  interaction_rules:
+    type: array
+    description: "Guidelines for interactions with this role"
+    items:
+      type: string
+      max_length: 200
+    example:
+      - "Always include technical context and data"
+      - "Provide options with tradeoffs, not recommendations alone"
+      - "Decisions should be deterministic and verifiable"
+
+  skill_requirements:
+    type: array
+    description: "Expected skills or expertise areas (optional)"
+    items:
+      type: string
+    example:
+      - "Rust or Go"
+      - "Protocol design"
+      - "Cryptography fundamentals"
+
+  metadata:
+    type: object
+    description: "Additional custom metadata"
+    example:
+      seniority: "senior"
+      team: "core"
+
+# Validation rules
+validation_rules:
+  - rule: "vibe_affinity items must exist in vibes/ directory"
+  - rule: "preferred_channels items must exist in channels/ directory"
+  - rule: "authority_level should match communication_style.formality_level (e.g., executive → formal)"

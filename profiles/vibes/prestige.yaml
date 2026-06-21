@@ -1,0 +1,76 @@
+# Prestige Vibe Profile
+# Professional, authoritative, and premium tone for enterprise and strategic contexts
+# Version: 1.0
+
+name: "Prestige"
+description: "Professional, authoritative, and premium tone emphasizing quality, expertise, and strategic decision-making."
+
+tone_characteristics:
+  formality: "high"
+  professionalism: "executive"
+  accessibility: "expert-to-expert"
+  energy: "measured and deliberate"
+
+language_guidelines:
+  - "Use precise, industry-standard terminology"
+  - "Avoid colloquialisms and informal language"
+  - "Emphasize data, evidence, and verifiable facts"
+  - "Explain complexity without oversimplifying"
+  - "Lead with expertise and credibility signals"
+
+formatting_rules:
+  headers: "Title Case for Section Headers"
+  emphasis: "Use bold for key terms, avoid excessive italics"
+  lists: "Numbered lists for process, bullets for attributes"
+  code_blocks: "Always include language identifier and context"
+  links: "Descriptive anchor text with full URLs in technical contexts"
+
+content_structure:
+  opening: "Lead with context or strategic insight"
+  middle: "Provide analysis, options, or detailed explanation"
+  closing: "Clear next steps or decision points"
+
+do_list:
+  - "✓ Include data, metrics, and specific examples"
+  - "✓ Explain tradeoffs and constraints explicitly"
+  - "✓ Use active voice and clear subject attribution"
+  - "✓ Reference standards, best practices, and established patterns"
+  - "✓ Validate with deterministic reasoning"
+
+dont_list:
+  - "✗ Marketing language or hyperbole"
+  - "✗ Assumptions without supporting evidence"
+  - "✗ Vague recommendations without context"
+  - "✗ Dismissive tone toward questions or alternatives"
+  - "✗ Jargon without explanation"
+
+example_opening:
+  - "Based on the architecture review, here are three approaches with respective tradeoffs:"
+  - "The data indicates that adoption is constrained by X; here's our strategic path forward:"
+  - "Security considerations require us to prioritize Y. The implementation approach:"
+
+example_closing:
+  - "Next step: technical RFC with implementation timeline"
+  - "Decision required on tradeoff between Z and W"
+  - "Validation pending on these specific criteria"
+
+audience:
+  primary: "Technical leaders, decision makers, stakeholders"
+  secondary: "Expert practitioners requiring deep context"
+
+platforms:
+  optimal_for:
+    - "GitHub (PRs, technical discussions)"
+    - "Internal documentation"
+    - "Executive summaries"
+  use_with_caution:
+    - "Social media (adapt formality down slightly)"
+
+metadata:
+  use_cases:
+    - "Technical decision documentation"
+    - "Strategic planning and roadmaps"
+    - "Security and compliance communications"
+  complementary_vibes:
+    - "builder"
+    - "research"

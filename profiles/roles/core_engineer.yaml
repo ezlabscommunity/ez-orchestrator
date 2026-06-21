@@ -1,0 +1,66 @@
+# Core Engineer Role Profile
+# Technical leadership and infrastructure implementation
+# Version: 1.0
+
+name: "Core Engineer"
+description: "Senior technical leader responsible for architecture, implementation, and protocol-level design decisions across infrastructure projects."
+
+responsibilities:
+  - "Design and implement core protocol features and cryptographic mechanisms"
+  - "Conduct technical code review, architecture evaluation, and quality assurance"
+  - "Define technical standards, patterns, and best practices"
+  - "Lead incident response and technical troubleshooting"
+  - "Create and maintain technical documentation and knowledge base"
+  - "Mentor junior engineers and contribute to team growth"
+  - "Evaluate new technologies and assess integration feasibility"
+
+authority_level: "strategic"
+
+required_context:
+  - "Project architecture, design patterns, and implementation strategy"
+  - "Roadmap priorities, milestones, and timeline constraints"
+  - "Team capacity, skills, and availability"
+  - "Security considerations and threat model"
+  - "Regulatory and compliance requirements"
+
+vibe_affinity:
+  - "prestige"
+  - "builder"
+  - "research"
+
+preferred_channels:
+  - "github"
+  - "discord"
+  - "internal_docs"
+
+communication_style:
+  formality_level: "professional"
+  response_time: "24 hours (critical: 4 hours)"
+  escalation_triggers:
+    - "Critical security vulnerabilities"
+    - "Timeline impacts > 1 week"
+    - "Architecture-level conflicts"
+    - "Cross-project dependencies"
+
+interaction_rules:
+  - "Always provide technical rationale with data and tradeoffs"
+  - "Use deterministic reasoning; explain decision criteria explicitly"
+  - "Include context: what problem are we solving, what constraints apply"
+  - "Decisions should be verifiable and auditable"
+  - "Prefer options with analysis over top-line recommendations"
+
+skill_requirements:
+  - "Expert-level proficiency in Rust, Go, or equivalent systems languages"
+  - "Deep understanding of protocol design and cryptography"
+  - "Experience with blockchain/distributed systems architecture"
+  - "Strong foundation in security and formal verification concepts"
+  - "Demonstrated leadership and mentoring ability"
+
+metadata:
+  seniority: "senior"
+  team: "core"
+  typical_projects:
+    - "ez_chain"
+    - "zendex"
+    - "ez_path"
+  on_call: true
